@@ -1,0 +1,19 @@
+{
+  "name": "Prica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.16.1"
+  },
+  "devDependencies": {
+    "sass": "^1.16.1"
+  }
+}
