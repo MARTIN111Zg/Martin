@@ -312,6 +312,12 @@ body {
   align-items: center;
   padding: 0 1rem;
 }
+@media only screen and (max-width: 900px) {
+  .about__me__p {
+    justify-content: flex-end;
+    padding: 0 0 0 2rem;
+  }
+}
 
 .icon__item__phone {
   position: relative;
@@ -411,6 +417,11 @@ body {
   top: 4rem;
   right: 5rem;
   z-index: 10;
+}
+@media only screen and (max-width: 900px) {
+  .nav {
+    right: 2rem;
+  }
 }
 
 .nav__btn {

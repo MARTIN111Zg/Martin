@@ -171,7 +171,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/main.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/about/about_main.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -2150,15 +2150,15 @@ var FadeTransition = _barba.default.BaseTransition.extend({
 _barba.default.Pjax.getTransition = function () {
   return FadeTransition;
 };
-},{"barba.js":"node_modules/barba.js/dist/barba.js"}],"js/index.js":[function(require,module,exports) {
+},{"barba.js":"node_modules/barba.js/dist/barba.js"}],"js/about.js":[function(require,module,exports) {
 "use strict";
 
-require("../sass/main.scss");
+require("../sass/about/about_main.scss");
 
 require("./navhanler");
 
 require("./pagetransition");
-},{"../sass/main.scss":"sass/main.scss","./navhanler":"js/navhanler.js","./pagetransition":"js/pagetransition.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../sass/about/about_main.scss":"sass/about/about_main.scss","./navhanler":"js/navhanler.js","./pagetransition":"js/pagetransition.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -2327,5 +2327,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/index.js"], null)
-//# sourceMappingURL=/js.00a46daa.map
+},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/about.js"], null)
+//# sourceMappingURL=/about.4565acc5.map

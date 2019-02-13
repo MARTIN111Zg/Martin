@@ -6,6 +6,10 @@
   top: 4rem;
   right: 5rem;
   z-index: 10;
+
+  @media only screen and (max-width: 900px) {
+    right: 2rem;
+  }
 }
 
 .nav__btn {
@@ -59,8 +63,7 @@
 
 .nav__overlay {
   transform: scale(0);
-  background: radial-gradient(
-    ellipse at center,
+  background: radial-gradient(ellipse at center,
     rgba(76, 76, 76, 1) 6%,
     rgba(89, 89, 89, 1) 12%,
     rgba(19, 19, 19, 1) 16%,
@@ -76,8 +79,7 @@
     rgba(43, 43, 43, 1) 33%,
     rgba(43, 43, 43, 1) 36%,
     rgba(28, 28, 28, 1) 62%,
-    rgba(28, 28, 28, 1) 62%
-  );
+    rgba(28, 28, 28, 1) 62%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   position: absolute;
   top: 0.1rem;
@@ -131,8 +133,7 @@
   background-color: var(--color-grey-light-4);
   transform: scaleY(0);
   transition: all 0.3s linear;
-  -webkit-clip-path: polygon(
-    90% 19%,
+  -webkit-clip-path: polygon(90% 19%,
     100% 34%,
     100% 48%,
     89% 67%,
@@ -141,10 +142,8 @@
     100% 100%,
     0 100%,
     0 0,
-    100% 1%
-  );
-  clip-path: polygon(
-    90% 19%,
+    100% 1%);
+  clip-path: polygon(90% 19%,
     100% 34%,
     100% 48%,
     89% 67%,
@@ -153,8 +152,7 @@
     100% 100%,
     0 100%,
     0 0,
-    100% 1%
-  );
+    100% 1%);
 }
 
 .nav__li:hover::before {
@@ -176,6 +174,7 @@
   position: relative;
   z-index: 4;
 }
+
 .toogle .bar1 {
   transform: rotate(-45deg) translateY(1rem);
 }
@@ -187,6 +186,7 @@
 .toogle .bar3 {
   transform: rotate(45deg) translateY(-1rem);
 }
+
 @keyframes movelink {
   from {
     transform: translate(-25rem, 25rem);
